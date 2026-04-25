@@ -1,0 +1,19 @@
+# DEPENDENCIES
+numpy # for numerical computations
+pandas # for data manipulation and analysis
+
+#FACE RECOGNITION
+scikit-learn # for machine learning algorithms
+dlib-bin # for face recognition, use dlib-bin instead of dlib to avoid installation issues on Windows
+# alternative of above dlib-20.0.99-cp313-cp313-win_amd64.whl
+git+https://github.com/ageitgey/face_recognition_models # for face recognition models
+setuptools # for installing packages
+
+supabase # for database management
+bcrypt # for password hashing
+
+segno # for QR code generation
+pillow # for image processing
+
+streamlit # for web app
+
